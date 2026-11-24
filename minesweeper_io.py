@@ -17,6 +17,8 @@ import tkinter as tk
 _seed = os.environ.get("MS_SEED")
 RNG = random.Random(int(_seed)) if _seed else random.Random()
 
+
+
 DIFFICULTIES = [
     ("Beginner", 9, 9, 10),
     ("Intermediate", 16, 16, 40),
